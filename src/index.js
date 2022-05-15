@@ -58,3 +58,12 @@ const buildingBlocks = {
         return gridContainer
     },
 };
+
+const toDo = ({title, description, dueDate, priority}) => ({
+    title,
+    description,
+    dueDate,
+    priority,
+})
+
+/*completed objects should be stored in an array and then iterated through with strikethrough or something at the bottom of the page.. hmm */
